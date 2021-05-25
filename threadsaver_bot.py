@@ -82,4 +82,4 @@ while True:
     since_id = retrieve_userthread(api)
     print("break")
     logger.info("Waiting...")
-    time.sleep(10)
+    time.sleep(60)
