@@ -78,7 +78,7 @@ def retrieve_userthread(api):
 
 
 api = create_api()
-since_id = credentials.id
+since_id = os.environ('id')
 while True:
     since_id = retrieve_userthread(api)
     print("break")
