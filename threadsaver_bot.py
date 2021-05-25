@@ -58,7 +58,7 @@ def retrieve_userthread(api):
     for tweet in tweepy.Cursor(api.mentions_timeline,since_id=since_id).items():
         logger.info(tweet.user.screen_name)
         logger.info(f"Since ID:{since_id}")
-        new_since_id = max(tweet.id, new_since_id)
+        new_since_id = max(tweet.id_str, new_since_id)
         logger.info(f"new Since ID:{new_since_id}")
         # if tweet.in_reply_to_status_id is not None:
         #     continue
