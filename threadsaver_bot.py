@@ -11,10 +11,10 @@ logger = logging.getLogger()
 
 
 def create_api():
-    consumer_key = 'CONSUMER_KEY'
-    consumer_secret = "CONSUMER_SECRET"
-    access_token = "ACCESS_TOKEN"
-    access_token_secret = "ACCESS_TOKEN_SECRET"
+    consumer_key = os.environ('CONSUMER_KEY')
+    consumer_secret = os.environ('CONSUMER_SECRET')
+    access_token = os.environ('ACCESS_TOKEN')
+    access_token_secret = os.evviron('ACCESS_TOKEN_SECRET')
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
@@ -56,8 +56,7 @@ def retrieve_userthread(api):
     keywords = ['save','shot']
     logger.info("Retrieving mentions")
     new_since_id = since_id
-    for tweet in tweepy.Cursor(api.mentions_timeline,
-                               since_id=since_id).items():
+    for tweet in tweepy.Cursor(api.mentions_timeline,since_id=since_id).items():
         logger.info(tweet.user.screen_name)
         logger.info(f"Since ID:{since_id}")
         new_since_id = max(tweet.id, new_since_id)
@@ -79,7 +78,7 @@ def retrieve_userthread(api):
 
 
 api = create_api()
-since_id = 'id'
+since_id = credentials.id
 while True:
     since_id = retrieve_userthread(api)
     print("break")
