@@ -14,6 +14,7 @@ The users will be able to tag `Twicky Bot` on a twitter thread and access the sa
 <br>
 <br>
 
+### Meet our [Twicky-Bot](https://twitter.com/BotTwicky) 💙
 <div align = "center">
   <img src="img/Twitter.png" | width = 100><br><br>
   <img src="https://i.giphy.com/media/wH4eTUxNxlK9sETgHB/giphy.webp" | width = 200>
@@ -26,7 +27,7 @@ The users will be able to tag `Twicky Bot` on a twitter thread and access the sa
     <img src='img/Riya.png' width=250px><br>
     <h3>👩 <a href = "https://github.com/RiyaMathew-11">Riya P Mathew</a></h3> 
     <img src='img/Sanna.png' width=250px> <br>
-    <h3><a href = 'https://github.com/SannaPramod'><h3><b>👩 Sanna Pramod</h3>
+   <h3><a href = "https://github.com/SannaPramod"><h3><b>👩 Sanna Pramod</a></h3>
     <img src='img/Vaisakh.png' width=250px><br> 
     <h3>👩 <a href = "https://github.com/Vaisakh-RS">Vaisakh RS</a></h3>  
  </details>
