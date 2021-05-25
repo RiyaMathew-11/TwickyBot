@@ -1,7 +1,6 @@
 import tweepy
 import logging
 import os
-import time
 
 
 logging.basicConfig(level=logging.INFO)
@@ -82,4 +81,3 @@ while True:
     since_id = retrieve_userthread(api)
     print("break")
     logger.info("Waiting...")
-    time.sleep(60)
