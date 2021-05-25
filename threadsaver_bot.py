@@ -33,8 +33,11 @@ def direct_message(api,user_name, id, url):
     print(user_name, url)
     user = api.get_user(id)
     user_id = user.id_str
-    api.send_direct_message(user_id, message_text)
-    print(f"Successfully sent to {user.name}")
+    try:
+        api.send_direct_message(user_id, message_text)
+        print(f"Successfully sent to {user.name}")
+    except:
+        print('User permission denied')
 
 
 def getRootTweet(api, tweet):
