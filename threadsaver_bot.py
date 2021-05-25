@@ -2,7 +2,6 @@ import tweepy
 import logging
 import os
 import time
-import credentials
 
 
 logging.basicConfig(level=logging.INFO)
