@@ -18,33 +18,28 @@ The users will be able to tag `Twicky Bot` on a twitter thread and access the sa
   <img src="img/Twitter.png" | width = 100><br><br>
   <img src="https://i.giphy.com/media/wH4eTUxNxlK9sETgHB/giphy.webp" | width = 200>
 </div>
-
-
 <br>
-<br>
-
-
-<details><summary><h2><b>Introducing our Team : 🔱 Tritons</b></h2></summary>
+<h2>Introducing our Team : 🔱 Tritons</h2>
+<details><summary></summary>
 <p> <div align = "center">
-    <h3>  </h3>
+    <h3>Team ID : BFH/rec1wKj19ULPZ9eun/2021</h3>
     <img src='img/Riya.png' width=250px><br>
     <h3>👩 <a href = "https://github.com/RiyaMathew-11">Riya P Mathew</a></h3> 
     <img src='img/Sanna.png' width=250px> <br>
     <h3><a href = 'https://github.com/SannaPramod'><h3><b>👩 Sanna Pramod</h3>
     <img src='img/Vaisakh.png' width=250px><br> 
-    <h3>👩 <a href = "https://github.com/Vaisakh-RS">Vaisakh RS</a></h3
-   
-        
+    <h3>👩 <a href = "https://github.com/Vaisakh-RS">Vaisakh RS</a></h3>  
+ </details>
 </p>    
-</details>
+
 <br>
 
 <div align = "center">
 <img src="https://media.giphy.com/media/eLXQdcsdXPOz25XrkS/giphy.gif" | width = 100 align="centre">
 </div>
 
-
-<details><summary><h2><b>🎥Let's have a walkthrough !!</h2></b></summary> <br>
+<h2>🎥Let's have a walkthrough !!</h2>
+<details><summary></summary> <br>
 
 Checkout the [link](https://www.loom.com/share/0d7c6677ab984c2793482feaac3551f0) for our walkthrough.
 </details>
@@ -53,8 +48,8 @@ Checkout the [link](https://www.loom.com/share/0d7c6677ab984c2793482feaac3551f0)
 <img src="https://media.giphy.com/media/bCDVw5ObalQUwXoeRt/giphy.gif" | width = 100 align="centre">
 </div>
 
-
-<details><summary><h2><b>How it works ❓🤔</h2></b></summary> <br>
+<h2>How it works ❓🤔</h2>
+<details><summary></summary> <br>
 
 🤖 `Twicky` is a very user-friendly bot and can be used to `save` tweet threads which can be easily accessed from your Twitter dm whenever you want. <br>
 
