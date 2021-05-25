@@ -27,11 +27,13 @@ The users will be able to tag `Twicky Bot` on a twitter thread and access the sa
 <details><summary><h2><b>Introducing our Team : 🔱 Tritons</b></h2></summary>
 <p> <div align = "center">
     <h3>  </h3>
-    <img src='img/Riya.png' width=250px> &nbsp <br>  <li><a href = 'https://github.com/RiyaMathew-11'><h3><b>👩 Riya Mathew</h3></b></a></li> 
-    <img src='img/Sanna.png' width=250px> <br> <li><a href = 'https://github.com/SannaPramod'><h3><b>👩 Sanna Pramod</h3></b></a></li>
-    <img src='img/Vaisakh.png' width=250px> <br> <li><a href = 'https://github.com/Vaisakh-RS'><h3><b>👦 Vaisakh R S</h3></b></a></li> <br>
-    <h2><b>Team ID</b></h2> <br>
-    <h4>BFH/rec1wKj19ULP9eun/2021
+    <img src='img/Riya.png' width=250px><br>
+    <h3>👩 <a href = "https://github.com/RiyaMathew-11">Riya P Mathew</a></h3> 
+    <img src='img/Sanna.png' width=250px> <br>
+    <h3><a href = 'https://github.com/SannaPramod'><h3><b>👩 Sanna Pramod</h3>
+    <img src='img/Vaisakh.png' width=250px><br> 
+    <h3>👩 <a href = "https://github.com/Vaisakh-RS">Vaisakh RS</a></h3
+   
         
 </p>    
 </details>
@@ -44,7 +46,7 @@ The users will be able to tag `Twicky Bot` on a twitter thread and access the sa
 
 <details><summary><h2><b>🎥Let's have a walkthrough !!</h2></b></summary> <br>
 
-Checkout the link for our walkthrough.
+Checkout the [link](https://www.loom.com/share/0d7c6677ab984c2793482feaac3551f0) for our walkthrough.
 </details>
 <br>
 <div align = "center">
