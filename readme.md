@@ -19,7 +19,7 @@ The users will be able to tag `Twicky Bot` on a twitter thread and access the sa
 </div>
 
 <div align = "center">
-<img src="https://media.giphy.com/media/wH4eTUxNxlK9sETgHB/giphy.gif" | width = 200 align="centre">
+<img src="https://i.giphy.com/media/wH4eTUxNxlK9sETgHB/giphy.webp" | width = 200 align="centre">
 </div>
 
 <br>
