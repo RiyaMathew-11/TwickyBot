@@ -7,7 +7,6 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
 
-
 def create_api():
     consumer_key = os.environ['CONSUMER_KEY']
     consumer_secret = os.environ['CONSUMER_SECRET']
@@ -28,36 +27,34 @@ def create_api():
     return api
 
 
-def direct_message(api,user_name, id, url):
+def direct_message(api, user_name, id, url):
     message_text = f"Your saved thread {url}"
     print(user_name, url)
     user = api.get_user(id)
     user_id = user.id_str
-    try:
-        api.send_direct_message(user_id, message_text)
-        print(f"Successfully sent to {user.name}")
-    except:
-        print('User permission denied')
+    api.send_direct_message(user_id, message_text)
+    print(f"Successfully sent to {user.name}")
+
 
 
 def getRootTweet(api, tweet):
     if tweet is None:
         print("fatal error: Tweet null")
         logger.info(f"{tweet.user.name},{tweet.id}")
-        return tweet.user.screen_name,tweet.id
+        return tweet.user.screen_name, tweet.id
     if tweet.in_reply_to_status_id is None:
         print("Got root!")
         logger.info(f"{tweet.user.name},{tweet.id}")
-        return tweet.user.screen_name,tweet.id
+        return tweet.user.screen_name, tweet.id
     parent = api.get_status(tweet.in_reply_to_status_id, tweet_mode="extended")
     return getRootTweet(api, parent)
 
 
 def retrieve_userthread(api):
-    keywords = ['save','shot']
+    keywords = ['save', 'shot']
     logger.info("Retrieving mentions")
     new_since_id = since_id
-    for tweet in tweepy.Cursor(api.mentions_timeline,since_id=since_id).items():
+    for tweet in tweepy.Cursor(api.mentions_timeline, since_id=since_id).items():
         logger.info(tweet.user.screen_name)
         logger.info(f"Since ID:{since_id}")
         new_since_id = max(tweet.id_str, new_since_id)
@@ -73,7 +70,7 @@ def retrieve_userthread(api):
 
             thread_url = f"https://twitter.com/{parent_username}/status/{parent_id}"
 
-            direct_message(api,tag_user, tag_id, thread_url)
+            direct_message(api, tag_user, tag_id, thread_url)
 
     return new_since_id
 
