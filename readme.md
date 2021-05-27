@@ -1,3 +1,5 @@
+<img src = "img/BFH.png"></img>
+
 <h1><b>🤖 Twicky Bot - Tweet Thread Saver 👋 !!</h1></b>
 
 <p>
