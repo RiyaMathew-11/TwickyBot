@@ -64,7 +64,11 @@ Checkout the [link](https://www.loom.com/share/0d7c6677ab984c2793482feaac3551f0)
 
 
 <b>Step 1 (Important) :</b> <br>
-   Open your twitter account and make sure that your DM settings under 🔐 privacy and security has been changed to `"any user can send messages to your DM"` (even      if they are not following you). Or as a second option follow `@BotTwicky`
+   Open your twitter account and make sure that your DM settings under 🔐 privacy and security has been changed to `"any user can send messages to your DM"` (even      if they are not following you). <br>
+   <div align:align = "center">OR</div>
+   
+   
+   Second option : [`Follow @BotTwicky`]((https://twitter.com/BotTwicky))
    <br>
 
 <b>Step 2 :</b> <br>
